@@ -67,6 +67,7 @@ body {
     linear-gradient(#00000000 40%,#000000 100%) padding-box;
     mask-composite: exclude;
 }
+@media (max-width: 768px) { .hero { height: auto; /* Allow height to adjust based on content */ padding: 20px; } }
 
 .hero h1 {
     font-family: 'Orbitron', sans-serif;
